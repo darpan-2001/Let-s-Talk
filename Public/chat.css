@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #F8F8F8;
+    font-family: 'Patrick Hand', cursive;
+}
+.container{
+    border: 3px solid rgba(179, 177, 177, 0.911);
+}
+
+.chat__section {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+}
+.brand {
+    padding: 20px;
+    background: rgba(179, 177, 177, 0.911);
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+
+    
+    padding-right: 100px;
+    padding-left: 100px;
+    /* height: 756px; */
+    width: 900px;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background: #1eeb28;
+    color: #fff;  
+}
+.outgoing {
+    background: rgba(28, 235, 55, 0.808);
+    color: white;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
